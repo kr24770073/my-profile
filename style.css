@@ -1,43 +1,63 @@
-.container {
-    width: 700px;
-    /* set the width of your container */
-    margin: 40px auto;
-    /* set margins: top/bottom: 40px; left/right: automatic */
+/* Global styles */
+body {
+    background-color: #f5f8fa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #34495e;
+    margin: 0;
+    padding: 0;
 }
 
-/* === Card Design === */
+/* Centering container */
+.container {
+    width: 600px;
+    margin: 40px auto;
+}
+
+/* Summary card (top) */
+.div-summary {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+/* Other cards */
 .card-white {
     background-color: white;
+    padding: 30px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    border: 1px solid #f0f0f0;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
-.card-white:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-}
-
-/* === Utility Classes === */
-.img-circle {
-    border-radius: 50%;
-}
-
+/* Utility */
 .text-center {
     text-align: center;
 }
 
-/* === Button-like Link === */
+.green {
+    color: #27ae60;
+}
+
+/* Rounded profile picture */
+.img-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Button style */
 .btn {
     display: inline-block;
     background-color: #3498db;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
+    margin-top: 10px;
     transition: background-color 0.2s ease;
 }
 
@@ -45,40 +65,14 @@
     background-color: #2980b9;
 }
 
-/* === Inline List (Social Links) === */
+/* Inline social list */
 .list-inline {
     list-style: none;
-    padding-left: 0px;
-    margin: 0;
+    padding-left: 0;
+    margin: 20px 0;
 }
 
 .list-inline>li {
     display: inline;
-    padding: 0px 15px;
-}
-
-/* === Spacing Elements === */
-.section {
-    margin-bottom: 30px;
-}
-
-.section p {
-    margin-bottom: 10px;
-}
-
-div {
-    background-color: white;
-    /* Fond blanc */
-    padding: 30px;
-    /* Espacement intérieur */
-    border-radius: 4px;
-    /* Coins arrondis */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    /* Ombre légère */
-    width: 300px;
-    /* Largeur fixe */
-    margin: 40px auto;
-    /* Centrage horizontal avec marge verticale */
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    /* Bordure discrète */
+    padding: 0 15px;
 }
