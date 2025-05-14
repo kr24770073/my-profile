@@ -65,3 +65,20 @@
 .section p {
     margin-bottom: 10px;
 }
+
+div {
+    background-color: white;
+    /* Fond blanc */
+    padding: 30px;
+    /* Espacement intérieur */
+    border-radius: 4px;
+    /* Coins arrondis */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    /* Ombre légère */
+    width: 300px;
+    /* Largeur fixe */
+    margin: 40px auto;
+    /* Centrage horizontal avec marge verticale */
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    /* Bordure discrète */
+}
