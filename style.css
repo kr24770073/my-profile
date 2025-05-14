@@ -1,0 +1,22 @@
+.container {
+    width: 700px;
+    /* set the width of your container */
+    margin: 40px auto;
+    /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 1px solid #f0f0f0;
+    /* optionnel pour mieux délimiter */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Effet au survol */
+.card-white:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
