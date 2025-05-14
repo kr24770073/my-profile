@@ -5,18 +5,63 @@
     /* set margins: top/bottom: 40px; left/right: automatic */
 }
 
+/* === Card Design === */
 .card-white {
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border: 1px solid #f0f0f0;
-    /* optionnel pour mieux délimiter */
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Effet au survol */
 .card-white:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* === Utility Classes === */
+.img-circle {
+    border-radius: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* === Button-like Link === */
+.btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* === Inline List (Social Links) === */
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+}
+
+.list-inline>li {
+    display: inline;
+    padding: 0px 15px;
+}
+
+/* === Spacing Elements === */
+.section {
+    margin-bottom: 30px;
+}
+
+.section p {
+    margin-bottom: 10px;
 }
